@@ -1,0 +1,22 @@
+{
+  "name": "health-check-compare-trades",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Health check comparing Mobula vs Codex WebSocket for Four.meme tokens on BSC",
+  "scripts": {
+    "start": "tsx compare-mobula-codex-final.ts",
+    "dev": "tsx watch compare-mobula-codex-final.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "graphql": "^16.12.0",
+    "graphql-ws": "^6.0.6",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "@types/ws": "^8.5.10",
+    "tsx": "^4.16.0",
+    "typescript": "^5.5.0"
+  }
+}
